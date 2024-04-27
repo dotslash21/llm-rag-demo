@@ -1,0 +1,23 @@
+[project]
+name = "chatbot_frontend"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Arunangshu Biswas", email = "arunangshubsws@gmail.com"},
+]
+dependencies = [
+    "streamlit>=1.33.0",
+    "requests>=2.31.0",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+[project.optional-dependencies]
+dev = [
+    "black>=24.4.2",
+    "flake8>=7.0.0",
+]
+
+[tool.pdm]
+distribution = false
